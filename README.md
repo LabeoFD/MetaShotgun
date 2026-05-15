@@ -77,8 +77,19 @@ seqkit version
 multiqc --version
 ```
 
+# DBs installation
 
+# syldb
 
+Under the `DBs` repository create a `sylph` folder. 
+
+Then proceed to download the database 
+
+```
+sudo wget -c http://faust.compbio.cs.cmu.edu/sylph-stuff/gtdb-r232-c200-dbv1.syldb
+```
+
+You can find all the databases to download from under this [link](http://faust.compbio.cs.cmu.edu/sylph-stuff/)
 
 # References 
 https://github.com/ZimmermannHH/BeringSea_shotgun_sequencing
