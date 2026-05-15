@@ -49,6 +49,7 @@ dependencies:
   # ── File utilities 
   - pigz
   - seqkit
+
 ´´´
 
 on the terminal type:
