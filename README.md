@@ -161,6 +161,21 @@ wget -c https://storage.googleapis.com/sylph-stuff/viral_refseq.syldb
 
 You can find all the databases to download from under this [link](http://faust.compbio.cs.cmu.edu/sylph-stuff/)
 
+## 🧬 Kaiju Databases (Protein-level classification)
+
+> Hosted on **AWS S3** — `https://kaiju-idx.s3.eu-central-1.amazonaws.com/`
+> ⚠️ Old links at `kaiju.binf.ku.dk` are dead — server shut down 2024-07-31
+
+| Database | Date | Size | RAM needed | Best for | Download |
+|---|---|---|---|---|---|
+| **refseq_ref** ⭐ | 2024-08-14 | 34 GB | 54 GB | Representative assemblies, balanced | [kaiju_db_refseq_ref_2024-08-14.tgz](https://kaiju-idx.s3.eu-central-1.amazonaws.com/2024/kaiju_db_refseq_ref_2024-08-14.tgz) |
+| refseq | 2024-08-14 | 37 GB | 111 GB | Complete genomes, more comprehensive | [kaiju_db_refseq_2024-08-14.tgz](https://kaiju-idx.s3.eu-central-1.amazonaws.com/2024/kaiju_db_refseq_2024-08-14.tgz) |
+| refseq_nr | 2024-08-13 | 62 GB | 153 GB | RefSeq non-redundant + eukaryotes | [kaiju_db_refseq_nr_2024-08-13.tgz](https://kaiju-idx.s3.eu-central-1.amazonaws.com/2024/kaiju_db_refseq_nr_2024-08-13.tgz) |
+| nr | 2024-08-25 | 81 GB | 219 GB | Maximum sensitivity (NCBI nr) | [kaiju_db_nr_2024-08-25.tgz](https://kaiju-idx.s3.eu-central-1.amazonaws.com/2024/kaiju_db_nr_2024-08-25.tgz) |
+| nr_euk | 2023-05-10 | 82 GB | 204 GB | nr + fungi + microbial eukaryotes | [kaiju_db_nr_euk_2023-05-10.tgz](https://kaiju-idx.s3.eu-central-1.amazonaws.com/2023/kaiju_db_nr_euk_2023-05-10.tgz) |
+
+> Each archive contains: `kaiju_db_*.fmi` (index) + `nodes.dmp` + `names.dmp` (NCBI taxonomy)
+
 # References 
 https://github.com/ZimmermannHH/BeringSea_shotgun_sequencing
 
