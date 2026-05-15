@@ -53,14 +53,17 @@ dependencies:
 ´´´
 
 on the terminal type:
+
 ´´´
 mamba env create -f ont_meta.yml
 ´´´
 
 then to activate the conda environement use:
+
 ´´´
 conda activate ont_meta
 ´´´
+
 and check all the tools have been installed
 
 ´´´
