@@ -2,9 +2,9 @@
 
 # Create a conda environement
 
-create an ´ont_meta.yml´
+create an `ont_meta.yml`
 
-´´´
+```
 name: ont_meta
 channels:
   - conda-forge
@@ -50,23 +50,23 @@ dependencies:
   - pigz
   - seqkit
 
-´´´
+```
 
 on the terminal type:
 
-´´´
+```
 mamba env create -f ont_meta.yml
-´´´
+```
 
 then to activate the conda environement use:
 
-´´´
+```
 conda activate ont_meta
-´´´
+```
 
 and check all the tools have been installed
 
-´´´
+```
 sylph --version
 minimap2 --version
 samtools --version | head -1
@@ -75,7 +75,7 @@ nanoq --version
 porechop_abi --version
 seqkit version
 multiqc --version
-´´´
+```
 
 
 
