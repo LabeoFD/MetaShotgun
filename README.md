@@ -12,41 +12,41 @@ channels:
   - defaults
 
 dependencies:
-  # ── Java (required by Nextflow) ───────────────────────
+  # ── Java (required by Nextflow) 
   - openjdk>=17
 
-  # ── Core language & base ──────────────────────────────
+  # ── Core language & base
   - python=3.11
   - pip
 
-  # ── Workflow manager ─────────────────────────────────
+  # ── Workflow manager 
   - nextflow>=24.0
 
-  # ── Read QC ──────────────────────────────────────────
+  # ── Read QC 
   - nanostat
   - nanoplot
   - fastqc
   - multiqc
 
-  # ── ONT Preprocessing ────────────────────────────────
+  # ── ONT Preprocessing 
   - porechop_abi
   - nanoq
   - filtlong
 
-  # ── Host removal ─────────────────────────────────────
+  # ── Host removal
   - minimap2
   - samtools
 
-  # ── Taxonomic classification ──────────────────────────
+  # ── Taxonomic classification 
   - sylph
   - sylph-tax
   - kaiju
 
-  # ── Python utilities ──────────────────────────────────
+  # ── Python utilities 
   - pandas
   - numpy
 
-  # ── File utilities ────────────────────────────────────
+  # ── File utilities 
   - pigz
   - seqkit
 ´´´
