@@ -155,7 +155,8 @@ Then proceed to download the databases
 sudo wget -c http://faust.compbio.cs.cmu.edu/sylph-stuff/gtdb-r232-c200-dbv1.syldb
 # Viruses — IMG/VR 4.0
 wget -c http://faust.compbio.cs.cmu.edu/sylph-stuff/imgvr_c200_v0.3.0.syldb
-
+# Viruses - Pathogens
+wget -c https://storage.googleapis.com/sylph-stuff/viral_refseq.syldb
 ```
 
 You can find all the databases to download from under this [link](http://faust.compbio.cs.cmu.edu/sylph-stuff/)
