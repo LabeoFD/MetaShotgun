@@ -81,7 +81,7 @@ multiqc --version
 
 # syldb
 # Sylph Pre-built Databases
-> Hosted at `http://faust.compbio.cs.cmu.edu/sylph-stuff/` and at `https://storage.googleapis.com/sylph-stuff
+> Hosted at `http://faust.compbio.cs.cmu.edu/sylph-stuff/` and at `https://storage.googleapis.com/sylph-stuff`
 
 ---
 
