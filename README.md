@@ -104,21 +104,23 @@ multiqc --version
 
 ## 🦠 Viral
 
-| Database | Date | Size | Best for | Download |
-|---|---|---|---|---|
-| IMG/VR 4.0 | 2023-10-17 | 2 GB | Environmental / general | [imgvr_c200_v0.3.0.syldb](http://faust.compbio.cs.cmu.edu/sylph-stuff/imgvr_c200_v0.3.0.syldb) |
-| UHGV (c200) | 2025-06-15 | 217 MB | Human gut viruses | [uhgv_c200_dbv1.syldb](http://faust.compbio.cs.cmu.edu/sylph-stuff/uhgv_c200_dbv1.syldb) |
-| UHGV (c100) | 2025-06-15 | 415 MB | Human gut viruses (sensitive) | [uhgv_c100_dbv1.syldb](http://faust.compbio.cs.cmu.edu/sylph-stuff/uhgv_c100_dbv1.syldb) |
-| viral RefSeq | 2023-10-17 | 23 MB | Quick screen only | [viral_refseq.syldb](http://faust.compbio.cs.cmu.edu/sylph-stuff/viral_refseq.syldb) |
+| Database | Date | Size | Best for | Primary (faust) | Mirror (Google Cloud) |
+|---|---|---|---|---|---|
+| IMG/VR 4.0 | 2023-10-17 | 2 GB | Environmental / pathogenic ⭐ | [imgvr_c200_v0.3.0.syldb](http://faust.compbio.cs.cmu.edu/sylph-stuff/imgvr_c200_v0.3.0.syldb) | [mirror](https://storage.googleapis.com/sylph-stuff/imgvr_c200_v0.3.0.syldb) |
+| viral RefSeq | 2023-10-17 | 23 MB | Known pathogens (NCBI annotated) ⭐ | ⚠️ 404 on faust | [mirror](https://storage.googleapis.com/sylph-stuff/viral_refseq.syldb) |
+| UHGV (c200) | 2025-06-15 | 217 MB | Human gut viruses | [uhgv_c200_dbv1.syldb](http://faust.compbio.cs.cmu.edu/sylph-stuff/uhgv_c200_dbv1.syldb) | [mirror](https://storage.googleapis.com/sylph-stuff/uhgv_c200_dbv1.syldb) |
+| UHGV (c100) | 2025-06-15 | 415 MB | Human gut viruses (sensitive) | [uhgv_c100_dbv1.syldb](http://faust.compbio.cs.cmu.edu/sylph-stuff/uhgv_c100_dbv1.syldb) | [mirror](https://storage.googleapis.com/sylph-stuff/uhgv_c100_dbv1.syldb) |
+
+> ⭐ **For environmental + pathogenic samples: download both IMG/VR 4.0 and viral RefSeq**
 
 ---
 
 ## 🍄 Eukaryotic / Fungi
 
-| Database | Date | Size | Download |
-|---|---|---|---|
-| RefSeq Fungi 2025 ⭐ newest | 2025-10-12 | 747 MB | [fungi-refseq-2025-10-11-c200-dbv1.syldb](http://faust.compbio.cs.cmu.edu/sylph-stuff/fungi-refseq-2025-10-11-c200-dbv1.syldb) |
-| RefSeq Fungi 2024 | 2024-07-25 | 677 MB | [fungi-refseq-2024-07-25-c200-v0.3.syldb](http://faust.compbio.cs.cmu.edu/sylph-stuff/fungi-refseq-2024-07-25-c200-v0.3.syldb) |
+| Database | Date | Size | Primary (faust) | Mirror (Google Cloud) |
+|---|---|---|---|---|
+| RefSeq Fungi 2025 ⭐ newest | 2025-10-12 | 747 MB | [fungi-refseq-2025-10-11-c200-dbv1.syldb](http://faust.compbio.cs.cmu.edu/sylph-stuff/fungi-refseq-2025-10-11-c200-dbv1.syldb) | [mirror](https://storage.googleapis.com/sylph-stuff/fungi-refseq-2025-10-11-c200-dbv1.syldb) |
+| RefSeq Fungi 2024 | 2024-07-25 | 677 MB | [fungi-refseq-2024-07-25-c200-v0.3.syldb](http://faust.compbio.cs.cmu.edu/sylph-stuff/fungi-refseq-2024-07-25-c200-v0.3.syldb) | [mirror](https://storage.googleapis.com/sylph-stuff/fungi-refseq-2024-07-25-c200-v0.3.syldb) |
 
 ---
 
